@@ -19,7 +19,7 @@ public class Server {
             s = ss.accept();//阻塞方法
             System.out.println("连接成功" + s.getRemoteSocketAddress());
             bi = new BufferedInputStream(s.getInputStream());
-            bo = new BufferedOutputStream(new FileOutputStream("..\\..\\Exam2\\tmp\\SampleChapter1.pdf"));
+            bo = new BufferedOutputStream(new FileOutputStream("..\\tmp\\SampleChapter1.pdf"));
 
             byte[] b = new byte[1024];
             int len;

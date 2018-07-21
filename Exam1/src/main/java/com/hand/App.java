@@ -29,7 +29,7 @@ public class App
             InputStream inputStream = connection.getInputStream();
 //            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
 
-            FileOutputStream fs = new FileOutputStream(new File("..\\..\\Exam1\\tmp\\SampleChapter1.pdf"));
+            FileOutputStream fs = new FileOutputStream(new File("..\\tmp\\SampleChapter1.pdf"));
             BufferedOutputStream outputStream = new BufferedOutputStream(fs);
 
             BufferedInputStream bufferedReader = new BufferedInputStream(inputStream);

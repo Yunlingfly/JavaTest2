@@ -59,7 +59,7 @@ public class XmlSaveThread extends Thread{
         Writer out;
         try {
             //创建一个输出流对象,附加写入
-            out = new FileWriter("..\\..\\Exam3\\tmp\\股票编码.xml",true);
+            out = new FileWriter("..\\tmp\\股票编码.xml",true);
             //创建一个dom4j创建xml的对象
             XMLWriter writer = new XMLWriter(out, format);
             //调用write方法将doc文档写到指定路径
